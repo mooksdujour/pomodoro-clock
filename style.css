@@ -1,0 +1,109 @@
+* {
+    background-color: rgb(144, 145, 135);
+}
+
+h1 {
+    font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+div, span {
+    background: none;
+}
+
+.main {
+    background-image: url("tomato.png");
+    background-size: cover;
+    margin: auto;
+    width: 550px;
+    height: 500px;
+    font-size: 25px;
+    font-family: 'Montserrat', bold;
+    color: black;
+    text-align: center;
+}
+
+#control_part {
+    height: 110px;
+    margin-bottom: 20px;   
+}
+
+.control_name {
+    display: inline-block;
+    width: 45%;
+    float: center;
+    margin-top: 127px;
+}
+
+
+.control {
+    display: block;
+    width: 15.6%;
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+    vertical-align: bottom
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    color: #fff4e6;
+    vertical-align: middle
+}
+
+#session, #break  {
+    font-size: 25px;
+    font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#time_part {
+    height: 250px;
+}
+
+.action {
+    display: block;
+    width: 50%;
+    float: left;
+    font-size: 45px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle
+}
+
+#clock_name {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+}
+
+#clock {
+    width: 100%;
+    height: 60px;
+    float: left;
+    font-size: 45px;
+    font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+    
+}
+
+.green {
+    color: #2ECC40;
+}
+
+.yellow {
+    color: #FFDC00;
+}
+
+.red {
+    color: #FF4136;
+}
+
+.enter {
+    color: #854442;
+}

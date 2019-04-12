@@ -1,0 +1,1 @@
+The Odin Project - Pomodoro clock implementation in vanilla Javascript
